@@ -18,7 +18,7 @@ export default function Home() {
       {/* Left Section (Image & Gallery) */}
       <div className="w-full flex flex-col lg:w-1/2 h-auto">
         <div className="w-full flex justify-center items-center">
-          <div className="relative w-full h-[600px] rounded-xl shadow-2xl bg-gray-100 overflow-hidden">
+          <div className="relative w-full h-[400px] rounded-xl shadow-2xl bg-gray-100 overflow-hidden">
             <Image src={selectedImage} alt="Selected" layout="fill" objectFit="cover" className="rounded-xl" />
           </div>
         </div>
